@@ -36,5 +36,4 @@ int main()
     }
     cout << "Your 6 months income is: " << sum << "$";
 
-
 }
