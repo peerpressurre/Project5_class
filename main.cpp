@@ -17,7 +17,7 @@ int main()
     
     for (size_t i = 0; i < size; i++)
     {
-        if (arr[i] > max)
+        if (arr[i] >= max)
         {
             max = arr[i];
         }
@@ -25,7 +25,7 @@ int main()
 
     for (size_t i = 0; i < size; i++)
     {
-        if (arr[i] < min)
+        if (arr[i] <= min)
         {
             min = arr[i];
         }
