@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    int sum = 0;
+    int sum = 0, max = 0;
     const uint32_t size = 6;
     int arr[size];
     cout << "Enter each month income:" << endl;
@@ -15,8 +15,12 @@ int main()
 
     for (size_t i = 0; i < size; i++)
     {
-        sum += arr[i];
+        if (arr[i] >= max)
+        {
+            max = arr[i];
+        }
+       /* sum += arr[i];*/
     }
-    cout << "Your 6 months income is: " << sum << "$";
+    cout << "Your 6 months income is: " << max << "$";
 
 }
