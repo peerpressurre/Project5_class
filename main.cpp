@@ -31,53 +31,103 @@ int main()
         }
     }
 
-
+//------------------------------max----------------------------------
     if (max == arr[0])
     {
-        cout << "Maximum income of the year was in January - " << max << "$";
+        cout << "Maximum income of this year was in January - " << max << "$";
     }
     else if (max == arr[1])
     {
-        cout << "Maximum income of the year was in February - " << max << "$";
+        cout << "Maximum income of this year was in February - " << max << "$";
     }
     else if (max == arr[2])
     {
-        cout << "Maximum income of the year was in March - " << max << "$";
+        cout << "Maximum income of this year was in March - " << max << "$";
     }
     else if (max == arr[3])
     {
-        cout << "Maximum income of the year was in April - " << max << "$";
+        cout << "Maximum income of this year was in April - " << max << "$";
     }
     else if (max == arr[4])
     {
-        cout << "Maximum income of the year was in May - " << max << "$";
+        cout << "Maximum income of this year was in May - " << max << "$";
     }
     else if (max == arr[5])
     {
-        cout << "Maximum income of the year was in June - " << max << "$";
+        cout << "Maximum income of this year was in June - " << max << "$";
     }
     else if (max == arr[6])
     {
-        cout << "Maximum income of the year was in July - " << max << "$";
+        cout << "Maximum income of this year was in July - " << max << "$";
     }
-    else if (max == arr[7)
+    else if (max == arr[7])
     {
-        cout << "Maximum income of the year was in August - " << max << "$";
+        cout << "Maximum income of this year was in August - " << max << "$";
     }
-    else if (max == arr[8)
+    else if (max == arr[8])
     {
-        cout << "Maximum income of the year was in September - " << max << "$";
+        cout << "Maximum income of this year was in September - " << max << "$";
     }
-    else if (max == arr[9)
+    else if (max == arr[9])
     {
-        cout << "Maximum income of the year was in October - " << max << "$";
+        cout << "Maximum income of this year was in October - " << max << "$";
     }
     else if (max == arr[10])
     {
-        cout << "Maximum income of the year was in November - " << max << "$";
+        cout << "Maximum income of this year was in November - " << max << "$";
     }
     else
     {
-        cout << "Maximum income of the year was in December - " << max << "$";
+        cout << "Maximum income of this year was in December - " << max << "$";
+    }
+    cout << endl;
+//----------------------------min----------------------------------
+    if (min == arr[0])
+    {
+        cout << "Minimum income of this year was in January - " << min << "$";
+    }
+    else if (min == arr[1])
+    {
+        cout << "Minimum income of this year was in February - " << min << "$";
+    }
+    else if (min == arr[2])
+    {
+        cout << "Minimum income of this year was in March - " << min << "$";
+    }
+    else if (min == arr[3])
+    {
+        cout << "Minimum income of this year was in April - " << min << "$";
+    }
+    else if (min == arr[4])
+    {
+        cout << "Minimum income of this year was in May - " << min << "$";
+    }
+    else if (min == arr[5])
+    {
+        cout << "Minimum income of this year was in June - " << min << "$";
+    }
+    else if (min == arr[6])
+    {
+        cout << "Minimum income of this year was in July - " << min << "$";
+    }
+    else if (min == arr[7])
+    {
+        cout << "Minimum income of this year was in August - " << min << "$";
+    }
+    else if (min == arr[8])
+    {
+        cout << "Minimum income of this year was in September - " << min << "$";
+    }
+    else if (min == arr[9])
+    {
+        cout << "Minimum income of this year was in October - " << min << "$";
+    }
+    else if (min == arr[10])
+    {
+        cout << "Minimum income of this year was in November - " << min << "$";
+    }
+    else
+    {
+        cout << "Minimum income of this year was in December - " << min << "$";
     }
 }
