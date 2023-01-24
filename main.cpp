@@ -7,7 +7,7 @@ int main()
         int temp, num, i, j;
         const uint32_t size = 5;
         int arr[size];
-       /* cout << "Enter each month income:" << endl;*/
+ 
         for (size_t i = 0; i < size; i++)
         {
             cout << "->";
