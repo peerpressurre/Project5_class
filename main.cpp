@@ -16,7 +16,7 @@ int main()
 	{
 		for (size_t j = 1; j < wid; j++)
 		{
-			cout << sym;
+			cout << sym << " ";
 		}
 		cout << "\n";
 	} 
