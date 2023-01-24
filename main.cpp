@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
     int sum = 0, max = 0;
-    const uint32_t size = 5;
+    const uint32_t size = 12;
     int arr[size];
-    cout << "Enter each month income:" << endl;
+    cout << "Enter each month income starting with January:" << endl;
     for (size_t i = 0; i < size; i++)
     {
         cout << "->";
@@ -30,6 +30,54 @@ int main()
             min = arr[i];
         }
     }
-    cout << max << min;
 
+
+    if (max == arr[0])
+    {
+        cout << "Maximum income of the year was in January - " << max << "$";
+    }
+    else if (max == arr[1])
+    {
+        cout << "Maximum income of the year was in February - " << max << "$";
+    }
+    else if (max == arr[2])
+    {
+        cout << "Maximum income of the year was in March - " << max << "$";
+    }
+    else if (max == arr[3])
+    {
+        cout << "Maximum income of the year was in April - " << max << "$";
+    }
+    else if (max == arr[4])
+    {
+        cout << "Maximum income of the year was in May - " << max << "$";
+    }
+    else if (max == arr[5])
+    {
+        cout << "Maximum income of the year was in June - " << max << "$";
+    }
+    else if (max == arr[6])
+    {
+        cout << "Maximum income of the year was in July - " << max << "$";
+    }
+    else if (max == arr[7)
+    {
+        cout << "Maximum income of the year was in August - " << max << "$";
+    }
+    else if (max == arr[8)
+    {
+        cout << "Maximum income of the year was in September - " << max << "$";
+    }
+    else if (max == arr[9)
+    {
+        cout << "Maximum income of the year was in October - " << max << "$";
+    }
+    else if (max == arr[10])
+    {
+        cout << "Maximum income of the year was in November - " << max << "$";
+    }
+    else
+    {
+        cout << "Maximum income of the year was in December - " << max << "$";
+    }
 }
